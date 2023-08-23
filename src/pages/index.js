@@ -9,7 +9,7 @@ export default function Landing() {
             <div className="container mt-0">
                 <header>
                     <h1 className="title">
-                        Cocoon Kids Big Cuddles is a therapeutic service for
+                        Cocoon Kids Big Hug is a therapeutic service for
                         children and young people
                     </h1>
                 </header>

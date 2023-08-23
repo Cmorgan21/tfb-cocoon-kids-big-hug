@@ -41,10 +41,12 @@ export default function Layout({
                         <Image
                             src="/assets/img/logo-full.jpg"
                             alt="Cocoon Kids Big Hug logo"
-                            width={550}
-                            height={207}
+                            width={300}
+                            height={150}
                         />
+                        
                     </div>
+                    <Nav />
                 </header>
             )}
             {!!showEmergency && <HelpAndExitButton />}

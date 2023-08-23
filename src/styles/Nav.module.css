@@ -47,14 +47,6 @@
     /* border: solid 1px var(--blue-lighter); */
     border-radius: 0.5rem;
 }
-.menu__list__item:nth-child(odd) {
-    background-color: var(--blue-lighter);
-    border-bottom: solid 1px var(--blue-light);
-    border-top: solid 1px var(--blue-light);
-}
-.menu__list__item:nth-child(even) {
-    background-color: var(--white);
-}
 .menu__list__item a {
     display: block;
     padding: 0.5rem 0.8rem;
