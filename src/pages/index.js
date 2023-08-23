@@ -1,6 +1,7 @@
 import Layout from '../components/layout/Layout'
 import UserGroupBtn from '../components/UserGroupBtn'
 import styles from '../styles/Landing.module.css'
+import Nav from '../../src/components/layout/Nav'
 
 export default function Landing() {
     return (
@@ -8,7 +9,7 @@ export default function Landing() {
             <div className="container mt-0">
                 <header>
                     <h1 className="title">
-                        Cocoon Kids Big Hug is a therapeutic service for
+                        Cocoon Kids Big Cuddles is a therapeutic service for
                         children and young people
                     </h1>
                 </header>

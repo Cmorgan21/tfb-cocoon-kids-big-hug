@@ -56,36 +56,8 @@ export default function Nav() {
                                 </Link>
                             )}
                         </div>
-                        <button
-                            data-collapse-toggle="navbar-sticky"
-                            aria-controls="navbar-sticky"
-                            aria-expanded="false"
-                            onClick={() => setIsNavOpen(!isNavOpen)} // toggle isNavOpen state on click
-                            className={styles.toggle}
-                        >
-                            <span className="sr-only">Open main menu</span>
-                            <svg
-                                className=" "
-                                aria-hidden="true"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg"
-                                style={{ height: '20px' }}
-                            >
-                                <path
-                                    fillRule="evenodd"
-                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                                    clipRule="evenodd"
-                                ></path>
-                            </svg>
-                        </button>
                     </div>
                     <div
-                        className={
-                            isNavOpen
-                                ? `${styles.Show} ${styles.menu__container}`
-                                : `${styles.menu__container}`
-                        }
                     >
                         <ul className={styles.menu__list}>
                             {navMenu.map((item) => {

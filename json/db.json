@@ -131,13 +131,13 @@
             "under13": {
                 "title": "",
                 "src": "ashamed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "",
+                "symptoms": ["", "lorem ipsum", "lorem ipsum"]
             },
             "over13": {
                 "title": "",
                 "src": "ashamed.jpg",
-                "description": "Lorem ipsum",
+                "description": "I am ashamed",
                 "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
             }
         },

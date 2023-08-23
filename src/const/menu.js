@@ -8,7 +8,6 @@ const navMenu = [
     { name: 'About us', route: '/about' },
     { name: 'Contact us', route: '/contact' },
     { name: 'Chat to someone', route: '/help' },
-    { name: 'Choose your age', route: '/' },
 ]
 
 export { navMenu }
