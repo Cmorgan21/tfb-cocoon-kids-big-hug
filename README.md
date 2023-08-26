@@ -14,7 +14,6 @@
 - deployed on vercel
 - data is stored in a db.json file, and we created an api endpoint and read the data using swr
 
-
 ## Introduction 
 ### What are you building?
 Cocoon Kids Big Hug is a therapeutic service for children and young adults and parents.

@@ -13,7 +13,6 @@ export async function getServerSideProps({ params }) {
     const domake = data['do-make'].filter(
         (domake) => domake.title === params.title
     )
-    console.log(domake)
     return { props: { domake } }
 }
 

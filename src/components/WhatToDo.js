@@ -139,6 +139,38 @@ export default function WhatToDo() {
                             <span className="shapes__title"> Go somewhere</span>
                         </div>
                     </Link>
+                    <Link href={'/video'}>
+                        <div className="shapes__item">
+                            <svg
+                                className="shapes__svg--lg"
+                                width="137"
+                                height="127"
+                                viewBox="0 0 137 127"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M32.6913 19.469C47.3542 7.64602 67.2524 -1.40905 85.1756 2.11096C103.099 5.63097 119.047 21.7261 128.199 40.4445C137.159 59.1073 139.516 80.449 131.408 94.7958C123.3 109.143 104.727 116.495 89.0225 121.13C73.126 125.709 59.9055 127.516 45.4643 125.63C31.215 123.8 15.6087 118.029 7.68998 106.554C-0.036638 95.1349 -0.211868 77.7636 4.35861 61.9751C8.79278 45.9384 18.0284 31.292 32.6913 19.469Z"
+                                    fill="currentColor"
+                                    stroke="url(#paint0_linear_154_59155)"
+                                />
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_154_59155"
+                                        x1="117.152"
+                                        y1="147.384"
+                                        x2="28.2459"
+                                        y2="-15.8771"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop stopColor="#EDE869" />
+                                        <stop offset="1" stopColor="#EDE869" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span className="shapes__title"> Videos</span>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </section>

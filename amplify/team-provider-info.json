@@ -1,4 +1,35 @@
 {
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cocoonkids-dev-133706-authRole",
+      "UnauthRoleArn": "arn:aws:iam::495923610530:role/amplify-cocoonkids-dev-133706-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::495923610530:role/amplify-cocoonkids-dev-133706-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-cocoonkids-dev-133706-deployment",
+      "UnauthRoleName": "amplify-cocoonkids-dev-133706-unauthRole",
+      "StackName": "amplify-cocoonkids-dev-133706",
+      "StackId": "arn:aws:cloudformation:eu-west-2:495923610530:stack/amplify-cocoonkids-dev-133706/9fb058d0-32c3-11ee-bc76-0aa48804ae92",
+      "AmplifyAppId": "dlcgojuc6byo6"
+    },
+    "categories": {
+      "auth": {
+        "cocoonkids": {}
+      },
+      "function": {
+        "cocoonkids871042fd": {
+          "deploymentBucketName": "amplify-cocoonkids-dev-133706-deployment",
+          "s3Key": "amplify-builds/cocoonkids871042fd-4559727041414f494379-build.zip"
+        },
+        "teacherHandler": {
+          "deploymentBucketName": "amplify-cocoonkids-dev-133706-deployment",
+          "s3Key": "amplify-builds/teacherHandler-334b654b62714f667146-build.zip"
+        }
+      },
+      "api": {
+        "cocoonkids": {}
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-cocoonkids-staging-122054-authRole",

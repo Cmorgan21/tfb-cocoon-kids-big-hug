@@ -3,7 +3,7 @@
   "cognitoConfig": {
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "cocoon61493312",
+    "resourceNameTruncated": "cocoonf7281d31",
     "userPoolName": "cocoonkids",
     "autoVerifiedAttributes": [
       "email"
@@ -14,8 +14,8 @@
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "Verification code: {####}",
-    "emailVerificationMessage": "Verification code: {####}",
+    "emailVerificationSubject": "Cocoon kids Verification code: {####}",
+    "emailVerificationMessage": "This is your verification code for your Coccon kids account.\n\nVerification code: {####}",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [
@@ -34,9 +34,9 @@
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "cocoon61493312_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "cocoonf7281d31_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "61493312",
+    "sharedId": "f7281d31",
     "resourceName": "cocoonkids",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
@@ -52,4 +52,4 @@
     "usernameCaseSensitive": false,
     "useEnabledMfas": true
   }
-} 
+}

@@ -24,7 +24,7 @@ const PlayGame = ({ games }) => {
                             </div>
                             <div className={styles.card__body}>
                                 <h2 className={styles.card__title}>
-                                    {game.title}
+                                    {game.name}
                                 </h2>
 
                                 <div>{game.description}</div>

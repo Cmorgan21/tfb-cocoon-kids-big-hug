@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.75rem;
+    
 }
 .card {
     /* position relative for stretched link */
@@ -14,6 +15,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    box-shadow: 10px 10px 5px rgb(138, 138, 138);
 }
 .card__body {
     padding: 1.25em;

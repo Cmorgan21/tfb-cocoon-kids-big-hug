@@ -1,11 +1,15 @@
 import Layout from '../components/layout/Layout'
+import Nav from '../components/layout/Nav'
 import UserGroupBtn from '../components/UserGroupBtn'
 import styles from '../styles/Landing.module.css'
 import Nav from '../../src/components/layout/Nav'
 
 export default function Landing() {
     return (
+        <div>
+        <Nav />
         <Layout isLanding={true} pageTitle="Landing">
+            
             <div className="container mt-0">
                 <header>
                     <h1 className="title">
@@ -63,5 +67,6 @@ export default function Landing() {
                 </section>
             </div>
         </Layout>
+        </div>
     )
 }

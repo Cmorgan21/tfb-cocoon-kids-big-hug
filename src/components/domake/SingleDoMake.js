@@ -11,6 +11,7 @@ const SingleDoMake = ({ domake }) => {
                 <header className={styles.header}>
                     {domake.src && (
                         <div className={styles.header__image}>
+                            
                             <Image
                                 src={`/assets/img/do/${domake.src}`}
                                 alt={domake.title}

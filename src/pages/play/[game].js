@@ -3,7 +3,6 @@ import Layout from '../../components/layout/Layout'
 import path from 'path'
 import { promises as fs } from 'fs'
 
-
 export async function getServerSideProps(context) {
     const param = context.params.game
     

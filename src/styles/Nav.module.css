@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
+        
 }
 
 .logo > a > span {
@@ -17,7 +18,29 @@
     font-weight: 700;
     padding: 0 0.4rem;
 }
+<<<<<<< HEAD
 
+=======
+.toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5em;
+    color: var(--blue-medium);
+    background-color: var(--white);
+    border: 2px solid var(--blue-medium);
+    border-radius: 0.5rem;
+    transition-duration: 0.2s;
+}
+.toggle:hover {
+    background-color: var(--blue-lighter);
+    color: var(--blue-dark);
+    cursor: pointer;
+}
+.toggle:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+>>>>>>> upstream/main
 .login {
     background-color: var(--blue-dark);
     color: var(--white);
@@ -62,6 +85,9 @@
 .Show ul {
     display: block;
     display: flex;
+}
+.nav {
+    border-bottom: solid 1px gray;
 }
 @media (min-width: 425px) {
     .logo > a > span {
