@@ -27,7 +27,7 @@ export default function Nav() {
         <header>
             <nav className={styles.nav}>
                 <div className={`${styles.logo} ${styles.container}`}>
-                    <Link href="/welcome" className={styles.logo__link}>
+                    <Link href="" className={styles.logo__link}>
                         <Image
                             src="/assets/img/logo.jpg"
                             height={62}
