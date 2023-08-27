@@ -1,8 +1,8 @@
 .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
+    
     margin: auto;
         
 }
@@ -97,7 +97,7 @@
         padding: 0 1rem;
     }
     .menu__list {
-        padding: 0.5rem;
+        padding: 0.25rem;
         border-radius: 0;
         border: 0;
         /* border-top: solid 1px var(--lighter-grey); */
@@ -110,7 +110,7 @@
         margin-left: 0.75rem;
     }
     .menu__list__item {
-        padding: 0.25rem 0.5rem;
+        padding: 0.25rem 0.3rem;
         font-weight: 500;
     }
     .menu__list__item:nth-child(odd) {

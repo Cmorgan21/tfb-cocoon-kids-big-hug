@@ -27,16 +27,16 @@ export default function Nav() {
         <header>
             <nav className={styles.nav}>
                 <div className={`${styles.logo} ${styles.container}`}>
-                    <Link href="#" className={styles.logo__link}>
-                        <Image
-                            src="/assets/img/logo.jpg"
-                            height={62}
-                            width={70}
-                            alt="Cocoon kids logo"
-                        />
-                        <span>Cocoon Kids Big Hug</span>
-                    </Link>
                     <div className={styles.btn_container}>
+                    <Link href="#" className={styles.logo__link}>
+                            <Image
+                                src="/assets/img/logo.jpg"
+                                height={62}
+                                width={70}
+                                alt="Cocoon kids logo"
+                            />
+                            <span>Cocoon Kids Big Hug</span>
+                        </Link>
                         <div>
                             {user ? (
                                 <Link
@@ -55,6 +55,7 @@ export default function Nav() {
                                     <span>Login</span>
                                 </Link>
                             )}
+                            
                         </div>
                     </div>
                     <div
