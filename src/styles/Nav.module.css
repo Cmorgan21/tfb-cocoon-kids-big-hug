@@ -7,9 +7,6 @@
         
 }
 
-.logo > a > span {
-    display: none;
-}
 .logo__link {
     display: flex;
     align-items: center;
@@ -18,9 +15,6 @@
     font-weight: 700;
     padding: 0 0.4rem;
 }
-<<<<<<< HEAD
-
-=======
 .toggle {
     display: inline-flex;
     align-items: center;
@@ -40,7 +34,6 @@
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
->>>>>>> upstream/main
 .login {
     background-color: var(--blue-dark);
     color: var(--white);
@@ -56,19 +49,22 @@
     background-color: var(--white);
     color: var(--blue-dark);
 }
-
+.btn_container {
+    display: flex;
+    align-items: center;
+    padding-right: 0.8rem;
+}
 .menu__container {
     width: 100%;
-    display: flex;
 }
-.menu__list {
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    /* border: solid 1px var(--blue-lighter); */
-    border-radius: 0.5rem;
+
+.menu__list__item:nth-child(odd) {
+    background-color: var(--blue-lighter);
+    border-bottom: solid 1px var(--blue-light);
+    border-top: solid 1px var(--blue-light);
+}
+.menu__list__item:nth-child(even) {
+    background-color: var(--white);
 }
 .menu__list__item a {
     display: block;
@@ -84,7 +80,6 @@
 }
 .Show ul {
     display: block;
-    display: flex;
 }
 .nav {
     border-bottom: solid 1px gray;
@@ -105,10 +100,12 @@
         padding: 0.5rem;
         border-radius: 0;
         border: 0;
-
         /* border-top: solid 1px var(--lighter-grey); */
-    }
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menu__list > * + * {
         margin-left: 0.75rem;
     }
@@ -125,6 +122,24 @@
         padding: 0;
     }
 
+    .menu__list__item a:hover {
+        border-bottom-style: dashed;
+        border-bottom-width: 2px;
+        border-color: rgb(0 0 0 / 1);
+    }
+    .menu__list__item:nth-last-child(2) a {
+        padding: 0.5rem 0.8rem;
+        background: var(--blue-dark);
+        color: var(--white);
+        border: 2px solid var(--blue-dark);
+        border-radius: 2rem;
+        transition-duration: 0.2s;
+    }
+    .menu__list__item:nth-last-child(2) a:hover {
+        background: var(--blue-lighter);
+        color: var(--blue-dark);
+        border: 2px solid var(--blue-dark);
+    }
     .menu__list__item:nth-last-child(1) {
         margin-left: 0;
         padding-left: 0;

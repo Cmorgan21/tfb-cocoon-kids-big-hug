@@ -33,9 +33,6 @@ export default function Layout({
                 <meta name="twitter:card" content="summary_large_image" />
                 <title>{`${siteTitle} | ${pageTitle}`}</title>
             </Head>
-            {!isLanding ? (
-                <Nav />
-            ) : (
                 <header>
                     <div className="logo-landing">
                         <Image
@@ -44,12 +41,11 @@ export default function Layout({
                             width={300}
                             height={150}
                         />
-                        
+
                     </div>
                     <Nav />
                 </header>
-            )}
-            {!!showEmergency && <HelpAndExitButton />}
+            {showEmergency && <HelpAndExitButton />}
 
             {!isLanding ? (
                 <>
